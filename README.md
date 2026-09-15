@@ -11,3 +11,8 @@ Atividades realizadas:
 - Criação da estrutura do menu interativo.
 - Implementação das funções base da aplicação.
 - Definição do tipo Perfil e modelagem dos dados iniciais do usuário.
+
+Data: 15/09/2026
+Atividades realizadas:
+- Alteração na estrutura
+- Ajustes e inclusão de novas funções da aplicação

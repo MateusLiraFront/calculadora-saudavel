@@ -2,10 +2,9 @@ import { meuPerfil } from "./profile";
 import { registrarPeso, registrarConsumoAgua, registrarTreino } from "./functions";
 import { exibirMenu } from "./menu";
 
-exibirMenu(meuPerfil);
 
 registrarPeso(meuPerfil, 75);
 registrarConsumoAgua(meuPerfil, 1700);
-registrarTreino(meuPerfil, true);
+// registrarTreino(meuPerfil, true);
 
 exibirMenu(meuPerfil);
