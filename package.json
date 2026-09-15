@@ -1,16 +1,19 @@
 {
   "name": "calculadora-saudavel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projeto para Praticar linguagem TypeScript",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx ts-node src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^7.0.2"
   }
 }
